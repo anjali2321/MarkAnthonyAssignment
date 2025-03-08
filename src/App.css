@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.app-container {
+  min-height: 100vh;
+  background-color: #2d3748;
+  padding: 12px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-content{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.recipe-list-container {
+  flex: 1;
+}
